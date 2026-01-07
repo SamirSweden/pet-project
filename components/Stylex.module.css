@@ -1,0 +1,47 @@
+.banner {
+    padding: 20px 0px;
+    background: #000;
+}
+
+.banner__wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80%;
+}
+
+
+.banner__width{
+    max-width: 400px;
+    width: 400px;
+}
+
+.banner__h3{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 105%;
+    letter-spacing: 0%;
+    margin: 26px 0px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.banner__p{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 200%;
+    letter-spacing: 0%;
+    color:rgba(255, 255, 255, 1);
+    margin-bottom: 50px;
+}
+
+.banner__img{
+    width: 600px;
+    height: 600px;
+    border-radius: 200px;
+}
+
+
+
+
