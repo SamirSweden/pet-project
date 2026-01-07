@@ -3,6 +3,8 @@ import  Link from "next/link"
 import { Button } from "@heroui/button"
 
 
+const pristavka = "https://kluch.media/upload/iblock/2e3/768x500mobil.jpg"
+
 const Banner = () => {
     return(
         <>
@@ -21,6 +23,13 @@ const Banner = () => {
                                 </Link>
                             </div>
                         </div>
+                        <img 
+                            src={pristavka} 
+                            width={600} 
+                            height={600} 
+                            alt="photo" 
+                            className={styles.banner__img}
+                        />
                     </div>
                 </div>
             </div>
